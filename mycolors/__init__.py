@@ -3,7 +3,10 @@ def color(color: str):
     if color == "RED":
         colours = []
         return colours
-    #
     if color == "RED":
-        colours = ["#c4e6b6",]
+        colours = [
+            "#c4e6b6",
+        ]
         return colours
+    else:
+        return None
